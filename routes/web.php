@@ -13,5 +13,7 @@ Route::get('/about',[IndexController::class,'about']);
 
 Route::get('/contact',[IndexController::class,'contact']);
 
+Route::get('/notfound',[IndexController::class,'_NotFound404']);
+
 
 

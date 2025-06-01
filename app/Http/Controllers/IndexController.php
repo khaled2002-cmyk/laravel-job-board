@@ -21,4 +21,9 @@ class IndexController extends Controller
         return view('Contact',['pagetitle' => 'Contact Page']);
     }
 
+    function _NotFound404()
+    {
+        return view('404NotFound',['pagetitle' => '404 Not Found']);
+    }
+
 }
